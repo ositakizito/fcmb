@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html, 
+body 
+{  
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font: bold;
+}
+nav
+{
+    width: 100%;
+    background: white;
+    padding: 0px 10px;
+    height: 60px;
+    line-height: 60px;
+    top: 0;
+    left: 0;
+    padding: 0 10px;
+    position: sticky;  
+    z-index: 10;
+}
+.logo
+{
+    float: left;
+    margin-left: 10px;
+    height: inherit;
+    margin-top: 5px;
+    padding-top: 0px; 
+    line-height: 20px;
+    position: relative;
+   
+   }
+nav ul
+{
+    float: right;
+    margin-top: 0px;
+    padding-top: 0px;   
+    line-height: 20px;
+   
+ }
+nav ul li
+{
+    float: left;
+    position: relative;
+   
+}
+nav ul li a{
+    display: block;
+    padding: 21px;
+    font: 1.1rem;
+    color: black;
+}
+nav ul li a:hover{
+   color: purple;
+}
+nav .menu-toggle
+{
+    display: none;
+}
+.checkbtn
+{
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 20px;
+}
+.checkbtn .menu-toggle 
+{
+     display: none;
+}
+#check
+{
+    display: none;
+
+}
+.search{
+    float: right;
+    padding: 8px;
+    outline: none;
+    font: 1.2em;
+    line-height: 40px;
+}
+.search-input
+{
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #f6f6f694;
+}
+.search .fa
+{
+    color: black;
+}
+.section
+{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+    min-height: auto;
+    display: flex;
+}
+.page-wrapper{
+    min-height:  5%;
+}
+/*SECTION FIELD*/
+.flex-container1{
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-content: space-around;
+    margin: 0 auto;
+}
+.flex-container1  .section-body{
+    padding: 10px 12px;
+    color: #fff;
+    width: 200px;
+    height: 150px;
+    font-family: coolvetica;
+    background-color: rgb(168, 7, 168);
+    
+}
+.flex-container1 .section-body p{
+   word-wrap: break-word;
+}
+
+.flex-container1 .secbody{
+    display: flex;
+    flex-direction: column;
+     
+
+}
+.flex-container1 .secbody div.our{
+    padding: 10px 12px;
+    color: rgba(255, 166, 0, 0.863);
+    font-weight: 900;
+    font-size: 26px;
+    text-align: center;
+
+}
+.flex-container1 .secbody p{
+    text-align: center;
+    line-height: 25px;
+    font-family: Myanmar Text;
+    word-wrap: break-word;
+    padding: 10px 12px;
+}
+
+.flex-container1 .secbody img.goal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+.flex-container1 .can img.candi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 12px;
+    margin: 0 auto;
+}
+
+.flex-container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+div.part{
+    color: #da3263;
+    text-transform: uppercase;
+    font-family: font;
+    letter-spacing: 2px;
+    text-align: center;
+    word-wrap: break-word;
+    padding: 25px 15px;
+    margin-bottom: 15px;
+
+}
+.part::after{
+    content: '';
+    position: absolute;
+    background-color: purple;
+    width: 30px;
+    height: 6px;
+    margin-top: 25px;
+    margin-left: -85px;
+}
+.flex-container2 .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.flex-container2 .content h2{
+   color: purple;
+
+}
+.flex-container2 .content .contenty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 8px 10px;
+}
+.flex-container2 .content .contenty p{
+     padding: 10px 12px;
+     font-family: Myanmar Text;
+     text-align: center;
+    
+}
+.flex-container3{
+    margin-top: 60px;
+    background-color: #fff;
+}
+.flex-container3 .content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.flex-container3 .content2 img{
+   width: 70%;
+   margin: 0 auto;
+   margin-bottom: 60px;
+}
+.flex-container3 .content2 h3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 12px;
+    color: purple;
+    font-weight: 900;
+    font-size: 26px;
+}
+.flex-container3 .content2 p{
+    padding: 10px 12px;
+    font-family: Myanmar Text;
+}
+.flex-container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.flex-container4 .shiping img{
+    padding: 10px 12px;
+}
+/*SECTION FIELD ENDS*/
+/*FOOTER*/
+.footer{
+    width: 100%;
+    background: #303036;
+    color: rgb(238, 221, 221);
+    height: 300px;
+    
+}
+.footer .flex-container{
+    display: flex;
+    padding: 5px ;
+}
+.footer .flex-container .footer-section{
+    flex: 1;
+    padding: 10px 8px;
+    margin-bottom: 25px;
+}
+.footer .flex-container .follow, h2, .social-link{
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 8px 20px;
+}
+.footer .footer-bottom{
+    width: 100%;
+    background: #343a40;
+    color: rgb(238, 221, 221);
+    text-align: center;
+    position: static;
+    bottom: 0px;
+}
+.footer .footer-bottom span a
+{
+    color: rgb(238, 221, 221);
+    padding: 5px;
+    border: 1px solid  #686868;
+    background: #343a40;
+}
+.footer .footer-bottom .bom
+{
+   padding: 10px 12px;
+   font-size: 12px;
+}
+.about-title
+{
+   color: rgba(255, 196, 0, 0.918);
+   margin-bottom: 10px;
+}
+.footer-section.about p{
+    word-wrap: break-word;
+    padding: 8px 10px;
+}
+.footer-section .terms
+{
+    position: relative;
+}
+.footer-section .terms .apply
+{
+    display: flex;
+    padding: 8px 12px;
+}
+.footer-section .terms .apply .kits
+{
+    color: white;
+    padding: 5px;
+}
+.footer-section .terms .apply .kits a
+{
+    color: white;
+    text-decoration: underline;
+
+}
+.footer-section .terms .apply .kits a:hover
+{
+    color: rgba(255, 196, 0, 0.918);
+    text-decoration: underline;
+}
+
+.social-link
+{
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+}
+.social-link li
+{
+    padding: 0 7px;
+}
+.social-link li a
+{
+    color: whitesmoke;
+}
+.social-link li a:hover
+{
+    color: rgba(255, 196, 0, 0.918);;
+}
+.follow h2
+{
+    text-align: left;
+}
+.follow .email-links
+{
+    padding-top: 5px;
+    margin: 15px 5px;
+}
+.follow .account
+{
+   padding: 10px 12px;
+   border-radius: 50px;
+   background-color: purple;
+   font-size: 15px;
+   text-align: center;
+    
+}
+.follow .account a
+{
+    color: whitesmoke;
+ 
+    
+}
+
+@media (max-width: 1065px)
+{
+    .checkbtn .menu-toggle
+{
+    display: block;
+    top: 16px;
+    right: 20px;
+    position: absolute;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+}
+    .main-content-wrapper
+{
+      padding: 10px;
+}
+    .auth-content
+{
+      width: 60%;
+}
+    ul
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    top: 60px;
+    left: 100%;
+    text-align: center;
+    transition: all .5s;
+    z-index: 88888;
+    overflow: auto;
+   
+}
+    nav ul li 
+{
+    width: 100%;
+    font-size: 20px;
+    margin: 5px 0; 
+    transition: all .5s;
+    text-align: center; 
+
+}
+
+
+.search-input
+{
+    display: none;
+}
+.search .fa
+{
+    padding-right: 40px;
+}
+#check:checked ~ul
+{
+    left: 0;
+}
+
+
+
+}
+
+@media (max-width: 500px){
+    .flex-container {
+        display: flex;
+        align-content: space-around;
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+        
+    }
+    .flex-container > div{
+        width: 100%;
+        margin: 10px;
+        place-items: center;
+        text-align: center;
+
+    }
+    .flex-container .footer-section .terms{
+        text-align: center;
+
+    }
+    .flex-container .footer-section.about{
+        font-size: 15px;
+
+    }
+    .flex-container .footer-section .follow{
+        font-size: 15px;
+
+    }
+    .footer{
+      
+        height: auto;
+       
+    }
+    .flex-container .follow{
+        margin-bottom: 60px;
+    }
+    .flex-container .footer-section.about{
+        margin-top: 50px;
+        margin-bottom: -20px;
+    }
+}
+@media (max-width: 358px){
+    .flex-container{
+      padding: 20px 15px;
+      margin-bottom: 20px;
+    }
+    .footer{
+      
+        height: auto;
+       
+    }
+  
+}
+@media (max-width: 400px){
+    .flex-container1  .section-body{
+        width: 100%;
+        height: auto;
+
+        
+    }
+  
+}
+@media (max-width: 330px){
+    .logo
+    {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 50px;
+      z-index: -1;
+       }
+  
+    .logo img
+    {
+     width: 180px;
+
+       }
+  
+}
+   
+  
